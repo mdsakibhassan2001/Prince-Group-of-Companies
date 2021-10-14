@@ -1,0 +1,1763 @@
+
+/* ============================Font =====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+
+
+
+/* ============================Font =====================*/
+
+
+
+
+/* =======================Heder Section Start===================== */
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+
+    max-width: 1270px !important;
+
+}
+.people_says{
+			list-style: none outside none;
+		    padding-left:0px;
+            margin: 0;
+}
+
+.bg_color{
+
+	background: #F7F9FB;
+
+}
+.active .nav-link{
+    color: #ED1C24 !important;
+
+}
+
+
+
+*body{
+	 font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.logo{
+
+}
+.logo img {
+    
+    width: 250px;
+    transition: .5s;
+}
+	
+.navbar .m{
+
+	margin-left: 100px;
+}
+
+.navbar{
+	
+	background:#fff;
+	display: flex;
+	padding: 30px !important;
+	border-top: 1px solid #e8e8e8;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background: #fff;
+}
+.dropdown{
+	padding-top: 8px;
+}
+
+.dropdown a{
+	 
+	color: #101528;
+	font-size: 16px;
+	padding-left: 9px;
+	text-transform: uppercase;
+}
+
+.active a{
+	color: #ED1C24;
+}
+
+.dropdown-menu .active_of a{
+	color: #ED1C24;
+}
+
+.dropdown a:hover{
+	
+	color: #ED1C24;
+	text-decoration: none;
+}
+
+
+.dropdown-menu a {
+    padding: 10px;
+    font-size: 12px;
+    padding-left: 15px;
+    color: #000;
+}
+
+
+.nav-item{
+		
+	padding-left:1em;
+}
+
+.nav-link{
+	color: #3e3939 !important;
+	text-transform:uppercase;
+}
+
+.header-area.sticky{
+	
+	position:fixed;
+	left: 0;
+	right: 0;
+	width:100%;
+	background:#fff;
+	z-index:9;
+	transition:.10s;
+	padding: 10px !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	
+}
+
+
+
+.header-area.sticky .logo img{
+	
+    width: 200px;
+    transition: .5s;
+}
+
+
+.header-area.sticky{
+	
+	opacity:1;
+	transition:.3s;
+	
+}
+.header-area.sticky .navbar{
+	
+	background-color: #FE543D;
+	transition:.3s;
+}
+
+    
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(31 32 33);
+    text-align: center;
+}
+
+.nav-link:hover {
+    color:#ED1C24 !important;
+    transition: .3s;
+}
+
+.login_logo {
+    color: #000 !important;
+    background: #F9B716 !important;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.login_logo:hover{
+	text-decoration: none;
+	color: #fff !important;
+    transition: .3s;
+}
+
+
+#showcase{
+	background: #000 !important;
+}
+
+
+/* ===============================Heder Section End=============================== */
+
+/* ===============================Slide Section Start=============================== */
+
+.slide{
+	height: 734px !important;
+  
+    position: relative;
+}
+.slide-1{
+	
+	background-image: url('images/slide_img/princeGroup.jpgi');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: fade1 15s infinite;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.slide-2{
+
+	background-image: url('images/slide_img/hotel_img.jpg');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: fade2 15s infinite;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+	
+}
+
+.slide-3{
+
+	background-image: url('images/slide_img/swiming.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: fade3 15s infinite;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	
+}
+
+
+
+@keyframes fade1 {
+  0%{
+  		opacity: 1;
+  }
+  25% {
+  	opacity: 0;
+  	
+  }
+  50% {
+  	opacity: 0;
+
+  }
+  75% {
+  	opacity: 0;
+  }
+  100% {
+  	opacity: 1;
+  }
+}
+
+
+@keyframes fade2 {
+  0%{
+  		opacity: 0;
+  }
+  25% {
+  	opacity: 1;
+  }
+  50% {
+  	opacity: 0;
+  }
+  75% {
+  	opacity: 1;
+  }
+  100% {
+  	opacity: 0;
+  }
+}
+
+@keyframes fade3 {
+  0%{
+  		opacity: 0;
+  }
+  25% {
+  	opacity: 0;
+  }
+  50% {
+  	opacity: 1;
+  }
+  75% {
+  	opacity: 0;
+  }
+  100% {
+  	opacity: 0;
+  }
+}
+
+/* ===============================Slide Section End=============================== */
+/* ===============================Welcome to Prince Group Start=========================== */
+.school{
+	background: #F7F9FB;
+	display: block;
+}
+.school h4{
+
+	text-align: center;
+	 font-family: 'Rubik', sans-serif;
+	 font-size: 31px;
+}
+
+.school h4 span{
+	color: #ED1C24;
+}
+.school p{
+
+	text-align: center;
+	 font-family: 'Rubik', sans-serif;
+	text-align: justify;
+}
+
+.school img{
+
+	border-radius: 10px;
+	margin-top: 10px;
+	width: 670px;
+    height: 414px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+
+}
+
+
+/* ===============================Welcome to Prince Group End============================= */
+
+/* ==================================Acheivements Section Start=================== */
+
+.acheivements{
+
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+	background: url('images/footer_bag_img.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background: #FFFFFF;
+
+}
+
+/* .acheivements::before{
+
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	position: absolute;
+	background: #1A2930;
+	opacity: 0.8;
+
+} */
+
+.acheivements_top_right h3{
+	
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.acheivements_top_right h3 span{
+
+	color: #ED1C24;
+}
+
+.acheivements_top_right .underline{
+
+	background: #fff;
+
+}
+
+.acheivements_top_right p{
+	font-size: 16px;
+	padding-bottom: 20px;
+	font-family: 'Rubik', sans-serif;
+	color: #000;
+
+}
+
+
+.acheivements img{
+
+	border-radius: 5px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+
+
+.acheivements img:hover{
+	transition: 0.5s;
+	margin-top: 0px;
+	opacity: 0.7;
+}
+
+
+.acheivements_top_left-1 .card{
+	border: 0;
+	background: #F7F9FB;
+	height: 220px;
+	width: 100%;
+	border-radius: 10px;
+	color: #000;
+	cursor: pointer;
+	transition: 0.5s;
+	
+}
+.acheivements_top_left-1 .card:hover{
+	transition: 0.5s;
+	background: #ED1C24;
+	height: 240px;
+	width: 100%;
+	border-radius: 10px;
+	color: #000;
+	cursor: pointer;
+	
+	
+}
+
+
+.acheivements_top_left-1 h3 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 7px;
+}
+
+.acheivements_top_left-1 h4 {
+    font-size: 14px;
+    text-align: center;
+   	margin-top: 15px;
+   	text-transform: uppercase;
+   	font-family: 'Rubik', sans-serif;
+   	
+}
+
+
+
+
+
+.acheivements_top_left-2 .card{
+	transition: 0.5s;
+	border: 0;
+	background: #F7F9FB;
+	height: 220px;
+	width: 100%;
+	border-radius: 10px;
+	color: #000;
+	cursor: pointer;
+	
+	
+}
+
+.acheivements_top_left-2 .card:hover{
+	transition: 0.5s;
+	background: #ED1C24;
+	height: 240px;
+	width: 100%;
+	border-radius: 10px;
+	color: #000;
+	cursor: pointer;
+	
+	
+}
+
+.acheivements_top_left-1 .card h4 span{
+
+	color: #F9B716;
+}
+
+.acheivements_top_left-1 .card:hover h4 span{
+
+	color: #fff;
+}
+
+.acheivements_top_left-2 .card h4 span{
+
+	color: #F9B716;
+}
+
+.acheivements_top_left-2 .card:hover h4 span{
+
+	color: #fff;
+}
+
+.acheivements_top_left-2 h3 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 7px;
+}
+
+.acheivements_top_left-2 h4 {
+    font-size: 14px;
+    text-align: center;
+  	 margin-top: 15px;
+   	text-transform: uppercase;
+   	font-family: 'Rubik', sans-serif;
+   
+}
+
+.acheivements_top_left-1 .card:hover h4{
+
+	color: #fff;
+}
+
+.acheivements_top_left-2 .card:hover h4{
+
+	color: #fff;
+}
+
+
+
+.acheivements_top_left-1 .logo i{
+
+
+	font-size: 49px;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: #ED1C24;
+}
+
+.acheivements_top_left-1 .card:hover .logo i{
+	color: #fff;
+}
+
+.acheivements_top_left-2 .logo i{
+
+
+	font-size: 49px;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color:  #ED1C24;
+}
+
+.acheivements_top_left-2 .card:hover .logo i{
+	color: #fff;
+}
+
+.acheivements_top_right .card {
+    height: 414px;
+    border-radius: 10px;
+}
+
+
+
+.acheivements_top_right .underline{
+
+	height: 1px;
+    width: 200px;
+    margin: auto;
+    background: red;
+    margin-top: 0;
+}
+
+
+
+.acheivements_top_right p small{
+
+	color: #FF7355;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.acheivements_top_right a{
+
+	margin-left: 60px;
+	width: 130px;
+	height: 50px;
+	
+	padding: 10px 25px;
+	color: #1D3B7B;
+	border: 1px solid #000;
+	border-radius: 25px;
+	text-decoration: none;
+	margin-top: 30px;
+
+
+
+}
+
+.acheivements_top_right a:hover{
+	text-decoration: none;
+	background: #1D3B7B;
+	color: #fff;
+	transition: 0.3s;
+}
+
+
+
+
+.acheivements_Bottom{
+
+	padding: 70px 0px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.acheivements_Bottom span {
+   
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #fff;
+    
+}
+.acheivements_Bottom p{
+	margin-top: 17px;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+.acheivements_Bottom p small{
+	
+	color: #FF9C02;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+/* ==================================Acheivements Section End=================== */
+ 
+
+/* ================================Our Brance Strt======================== */
+
+
+
+
+
+.course_section{
+
+	background:#F7F9FB;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+
+.course_secton_head h3 {
+    font-size: 40px;
+    padding-bottom: 12px;
+    font-family: 'Rubik', sans-serif;
+    color: #1A2930;
+}
+.course_secton_head h3 span{
+	color: #ED1C24;
+}
+.course_secton_head p {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.course_secton_buttom{
+
+
+}
+
+.course_secton_buttom .card-body{
+
+	background: #fff;
+	color: #000;
+	transition: 0.5s;
+
+	
+}
+
+.course_secton_buttom .card-body h4{
+
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	margin-bottom: 18px;
+	color: #ED1C24;
+	
+	
+}
+
+.course_secton_buttom .card-body .title{
+
+	font-family: 'Rubik', sans-serif;
+	color: #000;
+	
+}
+
+.course_secton_buttom .card-body p{
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	color: #000; 
+	
+}
+
+.course_secton_buttom .card{
+
+	background: #000;
+	border: 0;
+	margin-top: 10px;
+
+}
+
+.course_secton_buttom .card:hover{
+
+	background: #000;
+	border: 0;
+	margin-top: 0px;
+	transition: 0.5s;
+	outline: 0;
+
+}
+.course_secton_buttom .card:hover .title{
+
+	color: #000;
+}
+.course_secton_buttom img {
+    height: 300px !important;
+    width: 100%!important;
+}
+
+.course_secton_buttom img:hover{
+
+	opacity: 0.5;
+	transition: 0.5s;
+}
+.course_secton_buttom .card:hover .card-body{
+
+	background: #ED1C24;
+	transition: 0.5s;
+	color: #fff;
+}
+.course_secton_buttom .card:hover a{
+
+	color: #ED1C24;
+	background: #fff;
+}
+
+.course_secton_buttom .card:hover h4{
+
+	color: #fff;
+}
+
+.course_secton_buttom .card-body a{
+	font-family: 'Rubik', sans-serif;
+	background: #ED1C24;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+.course_secton_buttom .card-body a:hover{
+	background: #000;
+	background: #fff;
+	color: #000;
+
+}
+
+.underline{
+
+	height: 1px;
+	width: 200px;
+	margin: auto;
+	background: red;
+	margin-top: 0;
+}
+
+/* ================================Our Brance End======================== */
+
+
+/* =====================Our Product Section Start=================== */
+
+
+
+
+.product_section{
+
+	background: #FFFFFF;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+
+.product_section_head h3 {
+    font-size: 40px;
+    padding-bottom: 12px;
+    font-family: 'Rubik', sans-serif;
+    color: #1A2930;
+}
+.product_section_head h3 span{
+	color: #ED1C24;
+}
+
+
+
+.product_section_head p {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.product_section_buttom{
+
+
+}
+
+.product_section_buttom .card-body{
+
+	background: #ED1C24;
+	color: #ED1C24;
+	transition: 0.5s;
+
+	
+}
+
+.product_section_buttom .card-body h4{
+
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	margin-bottom: 18px;
+	color: #ED1C24;
+	
+	
+}
+
+.product_section_buttom .card-body .title{
+
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+
+.product_section_buttom .card-body p{
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	color: #000; 
+	
+}
+
+.product_section_buttom .card{
+
+	background: #000;
+	border: 0;
+	margin-top: 10px;
+
+}
+
+.product_section_buttom .card:hover{
+
+	background: #000;
+	border: 0;
+	margin-top: 0px;
+	transition: 0.5s;
+	outline: 0;
+
+}
+.product_section_buttom .card:hover .title{
+
+	color: #000;
+}
+.product_section_buttom img {
+    height: 200px !important;
+    width: 100%!important;
+}
+
+.product_section_buttom img:hover{
+
+	opacity: 0.5;
+	transition: 0.5s;
+}
+.product_section_buttom .card:hover .card-body{
+
+	background: #ED1C24;
+	transition: 0.5s;
+	color: #fff;
+}
+.product_section_buttom .card:hover a{
+
+	color: #ED1C24;
+	background: #fff;
+}
+
+.product_section_buttom .card:hover h4{
+
+	color: #fff;
+}
+
+.product_section_buttom .card-body a{
+	font-family: 'Rubik', sans-serif;
+	background: #ED1C24;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+.product_section_buttom .card-body a:hover{
+	background: #000;
+	background: #fff;
+	color: #000;
+
+}
+
+.underline{
+
+	height: 1px;
+	width: 200px;
+	margin: auto;
+	background: red;
+	margin-top: 0;
+}
+
+
+
+/* =====================Our Product Section End=================== */
+
+
+
+/* =========================Board Of Corporate Directors  Section Start================= */
+
+
+.experienced{
+
+	display: flex;
+	background: #F7F9FB;
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+}
+
+.experienced h4{
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	color: #1A2930;
+}
+
+.experienced h4 span{
+	color: #F9B716;
+}
+
+
+.experienced p{
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+
+}
+.experienced img{
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 670px !important;;
+    height: 414px !important;
+	transition: 0.5s;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.experienced p i {
+    font-size: 20px;
+    color: #F9B716;
+    padding: 0px 11px;
+    margin-top: 5px;
+}
+
+/* .experienced img:hover{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	height: 290px !important;
+	width: 300px !important;
+	border-radius: 50%;
+	transition: 0.5s;
+} */
+
+
+
+.experienced h3{
+	letter-spacing: 5px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 15px;
+}
+.experienced .underline_img{
+
+	background:  #1A2930;
+    margin: 0 auto;
+    width: 170px;
+    height: 1px;
+    margin-top: 5px;
+
+}
+
+.experienced li{
+
+	text-decoration:none;
+	display: block;
+}
+
+.lSAction > .lSNext {
+    background-position: -42px 13px;
+    right: 10px;
+   padding-bottom: 20px;
+    color: #F9B716;
+   display: flex;
+   justify-content: center;
+    border-radius: 50%;
+  
+    font-size: 35px;
+    
+}
+
+
+.lSAction > .lSNext:hover{
+	 color: #F9B716;
+}
+
+.lSAction > .lSPrev {
+    background-position: -42px 13px;
+    right: 10px;
+   padding-bottom: 20px;
+    color: #F9B716;
+   display: flex;
+   justify-content: center;p
+    border-radius: 50%;
+  
+    font-size: 35px;
+    
+}
+
+.lSAction > .lSPrev:hover{
+	 color: #F9B716;
+}
+
+.lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color: #F9B716;
+}
+
+/* =========================Board Of Corporate Directors  Section End================= */
+
+
+
+/* =================================Achievements Section Start============================== */
+
+
+.achievementSection{
+
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+	background: #fff;
+}
+
+.achievementSection h4{
+
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	color: #1A2930;
+}
+
+.achievementSection .card{
+
+	background: #000;
+	border: 0;
+	transition: .7s;
+}
+
+.achievementSection .card:hover{
+
+	
+	transition: .7s;
+}
+.achievementSection img{
+
+	height: 270px !important;
+	width: 100% !important;
+	cursor: pointer;
+	transition: .7s;
+}
+.achievementSection img:hover{
+
+	transition: .7s;
+	opacity: 0.7;
+	
+
+
+
+
+}
+
+
+
+
+/* =================================Achievements Section End============================== */
+
+
+/* ========================WHAT PEOPLE SAYS Section Start========================== */
+
+.people_says{
+
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+	background: #fff;
+}
+
+.people_says h4{
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	color: #000;
+	transition:5s;
+}
+
+.people_says h4 span{
+
+	color: #F9B716;
+}
+.people_says .underline{
+
+	width: 280px;
+
+}
+
+.people_says p{
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	color: #000;
+}
+
+
+.people_says .card{
+
+	background: #fff;
+	border: 0;
+	background: #F7F9FB;
+	position: relative;
+	border-radius: 10px;
+	transition: 0.5s;
+
+}
+
+.people_says .card:hover{
+
+	background: #F9B716;
+	transition: 0.5s;
+}
+
+
+.people_says .card_img img{
+
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	align-content: center;
+	display: block;
+	margin-left: 41%;
+	position: relative;
+	margin-bottom: -25px;
+	z-index: 3;
+	transition: 0.5s;
+	
+}
+
+.people_says .card_img img:hover{
+	height: 210px;
+	width: 210px;
+	transition: 0.5s;
+	margin-left: 30%;
+}
+
+
+.people_says .card h5{
+	letter-spacing: 5px;
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+}
+
+.people_says .card h3{
+	text-align: center;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	transition: 0.5s;
+}
+
+.people_says .card:hover h3{
+	color: #fff;
+}
+
+.people_says .card p{
+	text-align: center;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	padding: 0px 10px;
+}
+.people_says .card .underline{
+	
+	width:90px;
+	background: #303C6C;	
+
+}
+
+.people_says .lSAction > .lSNext{
+
+	color: #000;
+	
+}
+
+
+.people_says .lSAction > .lSPrev{
+	color: #000 !important;
+
+}
+
+
+/* ========================WHAT PEOPLE SAYS Section End========================== */
+
+
+
+/* =============================Gallery Section Start============================ */
+
+
+.gallary_section{
+	background: #fff;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: 'Rubik', sans-serif;
+
+}
+
+.gallary_section h3{
+	font-size: 40px;
+	font-family: 'Rubik', sans-serif;
+}
+.over_of{
+	position: relative;
+	margin-top: 20px;
+}
+
+.over_of{
+	margin-top: 20px;
+	background: #000;
+	border-radius: 10px;
+	transition: 0.5s;
+
+}
+.over_of:hover{
+	margin-top: 10px;
+	transition: 0.5s;
+}
+
+.over_of a{
+
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	transform: translate(50%,50%);
+	font-size: 30px;
+	color: #fff;
+	transform: scale(0);
+	transition: .5s;
+	cursor: pointer;
+	z-index: 2;
+}
+.over_of:hover a{
+	transform: scale(1);
+	color: #fff;
+
+}
+
+.gallary_section img{
+
+		
+	height: 270px;
+	width: 100% !important;
+	border-radius: 10px;
+}
+
+.gallary_section img:hover{
+	
+	opacity: 0.5;
+	transition: 0.5s;
+
+}
+
+
+.gallary_section .over_of_img{
+	
+	background: #FBE8A6;
+	color: #fff;
+	border-radius: 0px 0px 10px 10px;
+	
+}
+
+
+.gallary_section .over_of_img{
+	
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.7;
+	content: "";
+	position: absolute;
+	
+	
+}
+
+
+
+.gallary_section .over_of_img h4{
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 5px;
+	color: #000;
+}
+
+.gallary_section .over_of_img p{
+	font-family: 'Rubik', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+}
+
+
+/* =============================Gallery Section End============================== */
+
+
+/* ==============================News Section Start================================= */
+.news_section{
+	padding: 70px 0px;
+	background: #C7C6C4;
+}
+
+.news_section h3{
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	color: #101528;
+	text-align: center;
+}
+.news_section p{
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+.news_section .underline{
+
+	width: 500px;
+}
+
+
+
+/* ==============================News Section End================================= */
+
+
+
+
+
+/* ===================================Online Admission Section Start======================= */
+
+
+.online_admission{
+
+font-family: 'Rubik', sans-serif;
+}
+
+
+.online_admission h2{
+	color: #101528;
+}
+
+
+.online_admission h4{
+	color: #101528;
+}
+.online_admission button{
+
+	background: #101528;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/* ===================================Online Admission Section End======================= */
+
+/* ===================================Facilities  Section Start============================= */
+
+
+.facilities_section{
+	padding: 100px 0px;
+	font-family: 'Rubik', sans-serif;
+}
+.facilities_section h4{
+	font-size: 30px;
+	color: #101528;
+	text-align: center;
+	
+}
+.facilities_section .underline{
+
+	height: 1px;
+	width: 500px;
+	background: #101528;
+
+}
+.facilities_section p{
+	
+	
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* ============================ */
+
+.facilities_section_2{
+	background: #fff;
+	padding: 100px 0px;
+	font-family: 'Rubik', sans-serif;
+}
+.facilities_section_2 h4{
+	font-size: 30px;
+	color: #101528;
+	text-align: center;
+	
+}
+
+
+.facilities_section_2 p {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+.facilities_section_2 .underline{
+
+	height: 1px;
+	width: 300px;
+	background: #101528;
+
+}
+
+.facilities_section_2 img{
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+/* ===================================Facilities  Section End============================= */
+
+
+/* ==========================Sub Footer Section Start============================== */
+
+
+.sub_footer{
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+	background: url('images/footer_bag_img.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+
+}
+
+.sub_footer::before{
+
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	position: absolute;
+    background: #05090a;
+	opacity: 0.8;
+
+}
+
+.sub_footer .underlaine {
+    height: 1px;
+    width: 100px;
+    background: #fff;
+    margin-left: 143px;
+    margin-bottom: 16px;
+}
+
+
+
+.sub_footer .link_logo a {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 23px;
+  
+}
+
+.sub_footer h4 i{
+
+	padding: 10px;
+	cursor: pointer;
+}
+
+/* ==========================Sub Footer Section End============================== */
+
+
+/* ==========================Final Footer Start============================== */
+
+
+#footerId{
+	
+	background:#000;
+}
+
+#aboutslideId{
+	
+	background:url('images/about-2.jpg');
+	background-size:cover;
+	
+	height:250px;
+	position:relative;
+	
+}
+
+#servicesslideId{
+	
+	background:url('images/secvices.jpg');
+	background-size:cover;
+	
+	height:250px;
+	position:relative;
+	
+}
+
+#blog-img{
+	height:200px;
+}
+
+#contactslideId[
+	background:url('images/contuct-1.jpg');
+]
+
+{
+	
+	background:url('images/Tanjin tisa.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	height:250px;
+	position:relative;
+	
+}
+
+
+	
+
+
+
+.dark-overlay-4{
+	
+	
+	background:rgba(0,0,0,0.7);
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	
+}
+
+
+.footer_class .link_logo a{
+
+	padding: 0px 20px;
+	color: #fff;
+	font-size: 25px;
+
+}
+
+#footerId p {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+/* ==========================Final Footer End=================== */
+
+/* =======================Footer Section End===================== */
+
+
+/* =======================Scroll Section Start===================== */
+
+
+#scroll_top {
+    position: fixed;
+    right: 2%;
+    background: #13191e;
+    bottom: 0%;
+    font-size: 30px;
+    background: #101528;
+    border-radius: 50%;
+
+}
+#scroll_top i{
+
+	padding: 13px;
+	color: #f9b716;
+}
+
+
+/* =======================Scroll Section End===================== */
+
+
+/* ========================Login Section Start======================= */
+
+
+.login_section{
+
+	padding: 100px 0px;
+	height:  calc(110vh - 100px);
+	background: #fff;
+
+}
+
+.login_section .card{
+	height: 500px;
+	background: #F7F9FB;
+	border-radius: 20px;
+	padding-top: 30px;
+}
+
+.login_section h3{
+	font-family: 'Rubik', sans-serif;
+	color: #000;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.login_section form{
+
+	margin-top: 40px;
+
+}
+
+
+.login_section .form-group{
+
+	padding-top: 10px;
+}
+
+
+.login_section .form-check{
+	margin-bottom: 20px;
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+}
+
+
+.login_section button{
+	font-family: 'Rubik', sans-serif;
+	background:  #ddd; 
+	width: 100px;
+	align-content: center;
+}
+.login_section button:hover{
+	color: #1D3B7B;
+}
+
+.login_section p{
+	text-align: center;
+	color: #000;
+	margin-top: 40px;
+	font-size: 12px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.login_section p span{
+	color:  #F9B716;
+	cursor: pointer;
+}
+
+.login_section i{
+
+	font-size: 24px;
+	
+}
+
+.login_section a{
+
+	color: #000;
+}
+
+.login_section a:hover{
+
+	color: #000;
+}
+.form-check-label {
+    margin-bottom: 0;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* ========================Login Section End======================= */
+
+
+
+
+
+
+/* ============================Media Sction Start======================== */
+
+
+
+
+@media(max-width:992px)
+
+
+}
+    
+@media(max-width:767px)
+{
+	.nav-item{
+		
+	padding-left:0em !important;
+}
+.getstarted{
+	min-height:300px;
+}
+
+
+
+}
+
+@media(max-width: 480px)
+{
+	.carousel{
+		h2{
+			font-size:2.5rem;
+		}
+	}
+	#getstarted{
+	min-height:350px;
+}
+
+
+/* ============================Media Sction End======================== */
